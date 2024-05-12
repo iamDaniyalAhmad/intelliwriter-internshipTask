@@ -11,7 +11,7 @@ const Tools = (props) => {
                         <span className='items-center justify-center block w-8 h-8 rounded-md text-lg p-2' style={{background:tool.bgColor, color:tool.color}}>
                             {tool.source}
                         </span>
-                        <div className="text text-white">
+                        <div className="text text-white mx-2">
                             <h4 className='text-xl'> {tool.title}</h4>
                         </div>
 
